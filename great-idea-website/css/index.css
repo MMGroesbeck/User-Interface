@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,88 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1{
+	font-size: 48px;
+}
+nav{
+	text-align: center;
+	padding: 7px;
+	margin: 20px;
+	background-color: mistyrose;
+	position: fixed;
+	width: 95%;
+}
+
+nav a{
+	display: inline-block;
+	vertical-align: middle;
+	color: grey;
+	text-decoration: none;
+	margin: 0 1%;
+	width: 10%;
+}
+
+nav img{
+	display: inline-block;
+	margin: 0 1%;
+	vertical-align: middle;
+}
+
+.titlebox{
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	width: 45%;
+	margin: auto;
+}
+
+
+.titlebar img{
+	display: inline-block;
+	width: initial;
+	height: initial;
+	margin: 30px auto;
+	vertical-align: middle;
+}
+
+.linkbox{
+	text-align: center;
+	border: 2px grey solid;
+	width: 20%;
+	padding: 5px;
+	margin: auto;
+}
+
+hr{
+	margin: 3%;
+}
+
+.twobox{
+	display: inline-block;
+	width: 40%;
+	margin: 3%;
+}
+
+.middle-img{
+	display: block;
+	margin: auto;
+}
+
+.threebox{
+	display: inline-block;
+	width: 25%;
+	margin: 3%;
+}
+
+.contactblock{
+	margin: 3%;
+}
+
+.contactblock p{
+	margin-bottom: 10px;
+}
+
+.copyright{
+	text-align: center;
+	margin: auto;
+}
